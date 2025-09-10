@@ -156,8 +156,15 @@ export default function HomePage() {
                   <Button
                     variant="outline"
                     className="border-2 border-blue-200 text-blue-700 hover:bg-blue-50 px-8 py-3 text-lg font-semibold transition-all duration-300 bg-transparent"
+                    asChild
                   >
-                    Watch Demo
+                    <a
+                      href="https://drive.google.com/drive/folders/1Vy-08SNctpU3ErTmgJSpA3dBh1chKjzQ?usp=drive_link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Watch Demo
+                    </a>
                   </Button>
                 </div>
               </div>
