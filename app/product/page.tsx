@@ -21,46 +21,6 @@ import {
 export default function ProductPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Navigation */}
-      <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <Stethoscope className="w-5 h-5 text-white" />
-              </div>
-              <div>
-                <h1 className="text-xl font-bold text-gray-900">Clinix AI</h1>
-                <p className="text-xs text-gray-600">Hospital Management System</p>
-              </div>
-            </div>
-            <div className="hidden md:flex items-center space-x-8">
-              <a href="/" className="text-gray-600 hover:text-blue-600 transition-colors">
-                Home
-              </a>
-              <a href="/product" className="text-blue-600 font-medium">
-                Product
-              </a>
-              <a href="/about" className="text-gray-600 hover:text-blue-600 transition-colors">
-                About Us
-              </a>
-              <a href="/contact" className="text-gray-600 hover:text-blue-600 transition-colors">
-                Contact Us
-              </a>
-            </div>
-            <div className="flex items-center space-x-3">
-              <Badge variant="outline" className="text-green-600 border-green-200">
-                <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                System Online
-              </Badge>
-              <Button size="sm" className="bg-red-500 hover:bg-red-600">
-                Live
-              </Button>
-            </div>
-          </div>
-        </div>
-      </nav>
-
       {/* Doctor & Physician Module Section */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -887,36 +847,6 @@ export default function ProductPage() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gradient-to-r from-blue-600 to-teal-600 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-2xl font-bold mb-4">Clinix</h3>
-              <p className="text-blue-100 mb-4">
-                An AI-powered medical diagnostic tool designed to provide preliminary symptom analysis and healthcare
-                guidance.
-              </p>
-              <div className="text-sm text-blue-200">
-                <p className="font-semibold mb-2">Medical Disclaimer</p>
-                <p>
-                  This AI diagnostic tool is for informational purposes only and is not a substitute for professional
-                  medical advice, diagnosis, or treatment.
-                </p>
-              </div>
-            </div>
-            <div className="text-right">
-              <h3 className="text-xl font-semibold mb-4">About Clinix</h3>
-              <p className="text-blue-100 mb-4">
-                Clinix uses advanced AI technology to help users understand their symptoms and make informed healthcare
-                decisions.
-              </p>
-              <p className="text-sm text-blue-200">© 2025 Clinix. All rights reserved.</p>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }
